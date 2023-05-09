@@ -1,0 +1,262 @@
+body{
+	background-image: url('D:/CSS PROGRAM/media/image/R.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.A{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient bydefault center*/
+	background-image: radial-gradient(red,yellow,green);
+}
+
+.A1{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient bydefault center with persentage*/
+	background-image: radial-gradient(red 30% ,yellow 40% , green 50%);
+}
+
+.A2{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient bydefault center with persentage and cercal*/
+	background-image: radial-gradient(circle , red 30% ,yellow 40% , green 50%);
+}
+
+.A3{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient bydefault center with persentage and cercal with position*/
+	background-image: radial-gradient(circle at top , red 30% ,yellow 40% , green 50%);
+}
+
+.A4{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient bydefault center with persentage and cercal with position*/
+	background-image: radial-gradient(circle at bottom , red 30% ,yellow 40% , green 50%);
+}
+
+.A5{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient bydefault center with persentage and cercal with position*/
+	background-image: radial-gradient(circle at left , red 30% ,yellow 40% , green 50%);
+}
+
+.A6{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient bydefault center with persentage and cercal with position*/
+	background-image: radial-gradient(circle at right , red 30% ,yellow 40% , green 50%);
+}
+
+.A7{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient bydefault center with persentage and cercal with position*/
+	background-image: radial-gradient(circle at top right , red 30% ,yellow 40% , green 50%);
+}
+
+.A8{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient bydefault center with persentage and cercal with position*/
+	background-image: radial-gradient(circle at top left, red 30% ,yellow 40% , green 50%);
+}
+
+.A9{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient bydefault center with persentage and cercal with position*/
+	background-image: radial-gradient(circle at bottom right , red 30% ,yellow 40% , green 50%);
+}
+
+.B{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient bydefault center with persentage and cercal with position*/
+	background-image: radial-gradient(circle at bottom left , red 30% ,yellow 40% , green 50%);
+}
+
+.B1{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient bydefault center with persentage and cercal with position in percentage*/
+	background-image: radial-gradient(circle at 30% , red 30% ,yellow 40% , green 50%);
+}
+
+
+.B2{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient bydefault center with persentage and cercal with position in percentage*/
+	background-image: radial-gradient(circle at 30% 25% , red 30% ,yellow 40% , green 50%);
+}
+
+
+.B3{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient bydefault center with transparent*/
+	background-image: radial-gradient(red , transparent);
+}
+
+.B4{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient at top right with transparent*/
+	background-image: radial-gradient(at top right , blue , transparent);
+}
+
+.B5{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient at top left with transparent*/
+	background-image: radial-gradient(at top left , blue , transparent);
+}
+
+.B4{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient at bottom right with transparent*/
+	background-image: radial-gradient(at bottom right , blue , transparent);
+}
+
+.B5{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient at bottom left with transparent*/
+	background-image: radial-gradient(bottom left right , blue , transparent);
+}
+
+.B6{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use multiple Radial-Gradient at top right with transparent*/
+	background-image: radial-gradient(at top right , blue , transparent),
+					  radial-gradient(at top left , red , transparent),
+					  radial-gradient(at bottom right , yellow , transparent),
+					  radial-gradient(at bottom left , blue , transparent);
+}
+
+.B7{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient at closest-side*/
+	background-image: radial-gradient(closest-side at 20% 30% , red , blue , green);
+}
+
+.B8{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient at farthest-side*/
+	background-image: radial-gradient(farthest-side at 20% 30% , red , blue , green);
+}
+
+.B9{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient at closest-corner*/
+	background-image: radial-gradient(closest-corner at 20% 30% , red , blue , green);
+}
+
+.C{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Radial-Gradient at farthest-corner*/
+	background-image: radial-gradient(farthest-corner at 20% 30% , red , blue , green);
+}
+
+.C1{
+	border: 5px solid gray;
+	border-radius: 25px;
+	width: 800px;
+	height: 400px;
+	margin: 0px 250px;
+	/*use Repeating-Radial-Gradient with persentage*/
+	background-image: repeating-radial-gradient(red , blue 10% , green 20%);
+}
+
+
+h1{
+	text-align: center;
+}
+
+p{
+	font-size: 30px;
+	margin-left: 20px;
+	margin-inline-end: 20px;
+}

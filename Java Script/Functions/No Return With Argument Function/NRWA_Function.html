@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>NRWA Function</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/*
+			No Return With Argument Function
+
+			function functionName(parameter1 , parameter2){
+				Statement 1;
+				Statement 2;
+				Statement 3;
+				------------
+				------------
+				------------
+			}
+
+			Sume Codes; //Optional
+
+			functionName(Argument1,Argument2); //incase Argument Is not Pased Then Output is Undefinde
+		*/
+
+		function addTwoNumber(num1 , num2){
+			var sum = num1 + num2 ;
+			document.write("Sum = "+sum+"<br>");
+		}
+
+		//using default parameter
+		function addTwoNumber1(num1 =10 , num2 =30){
+			var sum = num1 + num2 ;
+			document.write("Sum = "+sum+"<br>");
+		}
+
+		//using default parameter with argument
+		function addTwoNumber2(num1 =10 , num2 =30){
+			var sum = num1 + num2 ;
+			document.write("Sum = "+sum+"<br>");
+		}
+
+		//output undefinde
+		function addTwoNumber3(num1 , num2){
+			var sum = num1 + num2 ;
+			document.write("Sum = "+sum+"<br>");
+		}
+
+		var x = parseInt(prompt("Enter First Number : "));
+		var y = parseInt(prompt("Enter Second Number : "));
+		addTwoNumber(x,y); //Pass Argument
+		addTwoNumber1();
+		addTwoNumber2(x,y);
+		addTwoNumber3();
+	</script>				
+</body>
+</html>

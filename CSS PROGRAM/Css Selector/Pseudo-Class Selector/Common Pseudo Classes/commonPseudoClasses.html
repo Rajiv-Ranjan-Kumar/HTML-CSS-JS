@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+
+	<style type="text/css">
+		/*
+			:first-child
+			:last-child
+			:nth-child()
+			:nth-last-child()
+			:nth-last-of-type()
+			:nth-of-type()
+			:only-child
+			:only-of-type
+			:first-of-type
+			:last-of-type
+			:empty
+			:not()
+		*/
+
+		.box1,.box2{
+			border: 2px solid red;
+		}
+		/*Use Common Pseudo Class*/
+		/*div.container p:first-child{
+			color: red;
+		}
+
+		div.container p:last-child{
+			color: blue;
+		}
+
+		div.container p:first-of-type{
+			color: yellow;
+		}
+
+		div.container p:last-of-type{
+			color: green;
+		}
+
+		div.container p:nth-child(4){
+			color: blue;
+		}
+
+		div.container p:nth-child(even){
+			color: blue;
+		}
+
+		div.container p:nth-child(odd){
+			color: blue;
+		}
+
+		div.container p:nth-child(2n){
+			color: blue;
+		}
+
+		div.container p:nth-child(2n+1){
+			color: blue;
+		}
+
+		div.container p:nth-last-child(3){
+			color: blue;
+		}
+
+		div.container p:nth-last-child(even){
+			color: blue;
+		}
+
+		div.container p:nth-last-child(odd){
+			color: blue;
+		}
+
+		div.container p:nth-last-child(2n){
+			color: blue;
+		}
+
+		div.container p:nth-last-child(2n+1){
+			color: blue;
+		}
+
+		div.container p:nth-of-type(1){
+			color: blue;
+		}
+
+		div.container p:nth-last-of-child(1){
+			color: blue;
+		}
+
+		div.container :only-of-type{
+			color: red;
+		}
+
+		div.container :only-child{
+			color: red;
+		}
+
+		div.container :empty{
+			height: 20px;
+			width: 100px;
+			background-color: red;
+		}
+		*/
+		div.box1 :not(p){
+			color: green;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box1">
+			<h1>Heding Box 1</h1>
+			<p>Paragraph...1 box 1</p>
+			<p>Paragraph...2 box 1</p>
+			<p>Paragraph...3 box 1</p>
+			<p>Paragraph...4 box 1</p>
+			<p>Paragraph...5 box 1</p>
+			<p></p>
+		</div>
+		<p>Paragraph...1 Container</p>
+		<p>Paragraph...2 Container</p>
+		<div class="box2">
+			<p>Paragraph...1 box 2</p>
+			<p>Paragraph...2 box 2</p>
+			<p>Paragraph...3 box 2</p>
+			<p>Paragraph...4 box 2</p>
+			<p>Paragraph...5 box 2</p>
+		</div>
+		<div class="box3">
+			<p>Paragraph...1 box 3</p>
+		</div>
+	</div>
+</body>
+</html>

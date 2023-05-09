@@ -1,0 +1,147 @@
+.Box{
+	width: 400px;
+	margin: 200px auto;
+	padding: 20px;
+	border: 10px;
+	/*use border-top-style*/
+	border-top-style: dotted;
+	/*use border-right-style*/
+	border-right-style: dashed;
+	/*use border-left-style*/
+	border-left-style: solid;
+	/*use border-bottom-style*/
+	border-bottom: double;
+}
+
+.Box1{
+	width: 400px;
+	margin: 200px auto;
+	padding: 20px;
+	border: 10px;
+	/*use border-style with multiple value*/
+	border-style: dotted dashed double solid;
+}
+
+.Box2{
+	width: 400px;
+	margin: 200px auto;
+	padding: 20px;
+	/*use border-top-width with thin value*/
+	border-top-width: thin;
+	/*use border-right-width with thick value*/
+	border-right-width: thick;
+	/*use border-bottom-width with medium value*/
+	border-bottom-width: medium;
+	/*use border-left-width with px value*/
+	border-left-width: 10px;
+
+	border-style: solid;
+}
+
+.Box3{
+	width: 400px;
+	margin: 200px auto;
+	padding: 20px;
+	/*use border-width with multiple value*/
+	border-width: thin thick medium 10px;
+	
+	/*use border-style with multiple value*/
+	border-style: dotted dashed double solid;
+}
+
+.Box4{
+	width: 400px;
+	margin: 200px auto;
+	padding: 20px;
+	/*use border-width with multiple value*/
+	border-width: thin thick medium 10px;
+	
+	/*use border-style with multiple value*/
+	border-style: dotted dashed double solid;
+
+	/*use border-top-color*/
+	border-top-color: blue;
+	/*use border-right-color*/
+	border-right-color: red;
+	/*use border-top-color*/
+	border-bottom-color: yellow;
+	/*use border-left-color*/
+	border-left-color: green;
+}
+
+.Box5{
+	width: 400px;
+	margin: 200px auto;
+	padding: 20px;
+	/*use border-width with multiple value*/
+	border-width: thin thick medium 10px;
+	
+	/*use border-style with multiple value*/
+	border-style: dotted dashed double solid;
+
+	/*use border-color with multiple values*/
+	border-color: blue green yellow red;
+}
+
+
+.Box6{
+	width: 400px;
+	margin: 200px auto;
+	padding: 20px;
+	/*use border-width with multiple value*/
+	border-width: thin thick medium 10px;
+	
+	/*use border-style with multiple value*/
+	border-style: dotted dashed double solid;
+
+	/*use border-color with multiple values*/
+	border-color: blue green yellow red;
+
+	/*use border-top-left-redius*/
+	border-top-left-radius: 5px;
+	/*use border-top-right-redius*/
+	border-top-right-radius: 15px;
+	/*use border-bottom-left-redius*/
+	border-bottom-left-radius: 75px;
+	/*use border-bottom-right-redius*/
+	border-bottom-right-radius: 95px;
+}
+
+.Box7{
+	width: 400px;
+	margin: 200px auto;
+	padding: 20px;
+	/*use border-width with multiple value*/
+	border-width: thin thick medium 10px;
+	
+	/*use border-style with multiple value*/
+	border-style: dotted dashed double solid;
+
+	/*use border-color with multiple values*/
+	border-color: blue green yellow red;
+
+	/*use border-redius with multiple values*/
+	border-radius: 25px 50px 100px 110px;
+}
+
+.Box8{
+	width: 400px;
+	margin: 200px auto;
+	padding: 20px;
+}
+
+.Box8 table{
+	/*use border-collapse with collapse value*/
+	border-collapse: collapse;
+}
+
+.Box9{
+	width: 400px;
+	margin: 200px auto;
+	padding: 20px;
+}
+
+.Box9 table{
+	/*use border-collapse with separate value*/
+	border-collapse: separate;
+}

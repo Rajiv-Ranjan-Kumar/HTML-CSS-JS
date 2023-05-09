@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>NRNA Function</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/*
+			//Global Variable
+			var num1;
+			var num2;
+
+			function functionName(){
+				//Local Variable
+				var x;
+				var y;
+
+				Statement 1;
+				Statement 2;
+				Statement 3;		//function body
+				------------
+				------------
+				------------
+			}
+		*/
+
+		//Global Variable
+		var num1 = 10;
+		var num2 = 30;
+
+		function addition(){
+			//Local Variable
+			var x = 5;
+			var y = 6;
+			document.write('In Side Of Function Body <br><br>');
+			document.write('Global Variable <br> Sum = '+ (num1+num2) +'<br>');
+			document.write('Local Variable <br> Sum = '+ (x+y) +'<br><br>');
+		}
+
+		addition();
+		document.write('Out Side Of Function Body <br>');
+		document.write('Global Variable <br> Sum = '+ (num1+num2));
+		document.write('Local Variable <br> Sum = '+ (x+y)); //Error
+	</script>
+</body>
+</html>

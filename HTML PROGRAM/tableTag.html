@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Table Tag</title>
+
+	<!--use style tag -->
+	<style type="text/css">
+		table,tr,td{
+			border: 2px solid green;
+			border-spacing: 0px;
+		}
+	</style>
+</head>
+
+<body>
+	<!--use table tag -->
+	<table>
+		<thead><!--use thead tag -->
+			<tr><!--use tr tag -->
+				<th>Si No.</th><!--use th tag -->
+				<th>Item</th><!--use th tag -->
+				<th>Rate</th><!--use th tag -->
+			</tr>
+		</thead>
+
+
+		<tbody><!--use tbody tag -->
+			<tr><!--use td tag -->
+				<td>1.</td><!--use td tag -->
+				<td>Computer</td><!--use td tag -->
+				<td rowspan="2">35000</td><!--use td tag with rowspan attribut -->
+			</tr>
+
+
+			<tr><!--use tr tag -->
+				<td>2.</td><!--use td tag -->
+				<td>Laptop</td><!--use td tag -->
+				
+			</tr>
+
+
+			<tr><!--use tr tag -->
+				<td>3.</td><!--use td tag -->
+				<td>Charger</td><!--use td tag -->
+				<td>1500</td><!--use td tag -->
+			</tr>	
+		</tbody>
+		
+
+		<tfoot><!--use tfoot tag -->
+			<tr><!--use tr tag -->
+				<td colspan="2">Total</td><!--use td tag -->
+				<td>36,500</td><!--use td tag -->
+			</tr>
+		</tfoot>		
+	</table>
+</body>
+</html>

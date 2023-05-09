@@ -1,0 +1,17 @@
+body{
+	background-image: url('D:/CSS PROGRAM/media/image/R.jpg');
+	background-size: cover;
+	/*use background-attachment with fixed , scroll Attribut*/
+	background-attachment: fixed;
+	/*background-attachment: scroll;*/
+}
+
+
+h1,h2,h3,h4{
+	color: black;
+}
+
+p{
+	color: black;
+	font-size: 30px;
+}

@@ -1,0 +1,90 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	padding: 10px;
+}
+
+table{
+	float: left;
+	margin: 10px;
+	border: 1px solid red;
+}
+
+th,td{
+	border: 1px solid red;
+	/*padding: 10px;
+	  padding: 10px 5px*/
+}
+
+/* use border collapse property */
+
+.t1{
+	border-collapse: separate;
+}
+
+.t2{
+	border-collapse: collapse;
+}
+
+/* use border spacing property */
+
+.t3{
+	/*border-spacing: 10px;*/
+
+	/*use border spacing row and column*/
+	border-spacing: 5px 10px;
+}
+
+/* use vertical-align property */
+
+.t4 td{
+	width: 300px;
+	/*vertical-align: top;
+	vertical-align: bottom;*/
+	vertical-align: middle;
+}
+
+/* use caption-side property */
+
+caption{
+	/*caption-side: bottom;*/
+	caption-side: top;
+	background-color: green;
+}
+
+/* use empty-cells property */
+.t5{
+	empty-cells: hide;
+}
+
+.t6{
+	empty-cells: show;
+}
+
+/* use table-layout property */
+.t7{
+	width: 300px;
+	table-layout: auto;
+}
+
+.t8{
+	width: 300px;
+	table-layout: fixed;
+}
+
+
+tr:nth-child(even){
+	background-color: yellow;
+}
+
+tr:nth-child(odd){
+	background-color: aqua;
+}
+
+tr:hover{
+	background-color: red;
+}
+

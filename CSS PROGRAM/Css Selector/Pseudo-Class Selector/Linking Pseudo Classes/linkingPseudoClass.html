@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Link pseudo class</title>
+	<link rel="stylesheet" href="">
+
+	<style type="text/css">
+
+		/*Linking Pseudo Class*/
+		a:link{
+			color: red;
+		}
+
+		a:visited{
+			color: green;
+		}
+		a:hover{
+			color: blue;
+		}
+
+		a:active{
+			color: black;
+		}
+
+		:target{
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<a href="#">Google</a><br><br>
+	<a href="#">Facebook</a><br><br>
+	<a href="#">Instagram</a><br><br>
+	<a href="#">Whatsapp</a><br><br>
+
+	<!--use target-->
+	<iframe src="" height="300px" width="300px" name="Rajiv"></iframe>
+	<br><br>
+	<a href="D:\CSS PROGRAM\media\image\tajmahal.jpg" target="Rajiv">Target</a>
+	
+</body>
+</html>

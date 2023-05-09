@@ -1,0 +1,30 @@
+body{
+	text-align: center;
+	font-size: 20px;
+	padding: 20px;
+}
+a{
+	text-decoration-line: none;
+}
+
+/* Link are four types
+
+1. link (no visite)
+2. visited (at-list one time visite)
+3. hover (currsor le jane par color chenge)
+4. active (jab hm kisi link par active hote hai) */
+
+a:link{
+	color: red;
+}
+
+a:visited{
+	color: green;
+}
+a:hover{
+	color: blue;
+}
+
+a:active{
+	color: black;
+}

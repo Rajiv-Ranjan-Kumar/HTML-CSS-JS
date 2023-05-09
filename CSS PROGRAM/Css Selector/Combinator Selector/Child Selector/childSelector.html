@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Child Selector</title>
+	<link rel="stylesheet" href="">
+
+	<style type="text/css">
+		/*Child Selector(~)*/
+		div.box > p{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<p>Paragraph 1</p>
+		<p>Paragraph 2</p>
+		<p>Paragraph 3</p>
+
+		<div class="underbox">
+			<p>Paragraph 4</p>
+			<p>Paragraph 5</p>
+		</div>
+	</div>
+</body>
+</html>

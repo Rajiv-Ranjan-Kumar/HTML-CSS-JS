@@ -1,0 +1,192 @@
+.Box{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	/*use Border-style with solid value*/
+	border-style: solid;
+	border-width: 10px;
+	border-color: red;
+}
+
+.Box1{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	/*use Border-style with dashed value*/
+	border-style: dashed;
+	border-width: 10px;
+	border-color: red;
+}
+
+.Box2{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	/*use Border-style with dotted value*/
+	border-style: dotted;
+	border-width: 10px;
+	border-color: red;
+}
+
+.Box3{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	/*use Border-style with double value*/
+	border-style: double;
+	border-width: 10px;
+	border-color: red;
+}
+
+.Box4{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	/*use Border-style with groove value*/
+	border-style: groove;
+	border-width: 10px;
+	border-color: red;
+}
+
+.Box5{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	/*use Border-style with hidden value*/
+	border-style: hidden;
+	border-width: 10px;
+	border-color: red;
+}
+
+.Box6{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	/*use Border-style with inset value*/
+	border-style: inset;
+	border-width: 10px;
+	border-color: red;
+}
+
+.Box7{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	/*use Border-style with logical value*/
+	border-style: logical;
+	border-width: 10px;
+	border-color: red;
+}
+
+.Box8{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	/*use Border-style with none value*/
+	border-style: none;
+	border-width: 10px;
+	border-color: red;
+}
+
+.Box9{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	/*use Border-style with ridge value*/
+	border-style: ridge;
+	border-width: 10px;
+	border-color: red;
+}
+
+.Box10{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	/*use Border-style with outset value*/
+	border-style: outset;
+	border-width: 10px;
+	border-color: red;
+}
+
+.Box11{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	border-style: solid;
+	/*use Border-width with thin value*/
+	border-width: thin;
+	border-color: red;
+}
+
+.Box12{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	border-style: solid;
+	/*use Border-width with thick value*/
+	border-width: thick;
+	border-color: red;
+}
+
+.Box13{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	border-style: solid;
+	/*use Border-width with medium value*/
+	border-width: medium;
+	border-color: red;
+}
+
+.Box14{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	border-style: solid;
+	/*use Border-width with values*/
+	border-width: 5px 20px;
+	border-color: red;
+}
+
+.Box15{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	border-style: solid;
+	/*use Border-width with multiple values*/
+	border-width: 5px 20px 30px 40px;
+	border-color: red;
+}
+
+.Box16{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	border-style: solid;
+	border-width: 5px;
+	/*use Border-color with multiple values*/
+	border-color: red blue;
+}
+
+.Box17{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	border-style: solid;
+	border-width: 5px;
+	/*use Border-color with multiple values*/
+	border-color: blue red green yellow;
+}
+
+
+
+.Box18{
+	width: 550px;
+	margin: 200px auto 0px auto;
+	border: 5px solid green;
+}
+
+.Box18 h1{
+	border-left: 100px solid red;
+	padding: 0px 20px 0px 0px;
+
+	border-right: 100px solid red;
+	padding: 0px 0px 0px 20px;
+}
+
+.Box18 p{
+	border-left: 100px solid gray;
+	padding: 0px 20px 0px 0px;
+
+	border-right: 100px solid gray;
+	padding: 0px 0px 0px 20px;
+}
+
+
+
+* h1 , p{
+	padding: 20px;
+	margin: 10px 0px;
+}

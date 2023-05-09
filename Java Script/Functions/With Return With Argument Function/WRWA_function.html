@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>WRWA Function</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/*
+			With Return With Argument Function
+
+			function functionName(parameter1 , parameter2){
+				Statement 1;
+				Statement 2;
+				Statement 3;
+				------------
+				------------
+				------------
+				return(Value);
+			}
+
+			Some Codes; //Optional
+
+			var x = functionName(Argument1,Argument2);
+		*/
+
+		function addTwoNumber(num1 , num2){
+			return num1 + num2;
+		}
+
+		var x = parseInt(prompt("Enter First Number :"));
+		var y = parseInt(prompt("Enter Second Number :"));
+
+		var sum = addTwoNumber(x , y);
+		document.write("Sum = "+sum);
+	</script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+/*
+	x-index = go left to right and right to left
+	y-index = go up to down and down to up
+	z-index = go front to back and back to front
+*/
+.main{
+	height: 300px;
+	width: 400px;
+	border: 2px solid gray;
+	border-radius: 15px;
+}
+
+.img,img{
+	width: 400px;
+	height: 300px;
+	border-radius: 15px;
+	
+}
+
+.m{
+	height: 150px;
+	width: 200px;
+	border: 1px solid gray;
+	border-radius: 15px;
+	margin: 75px 97px;
+	background-color: rgba(0, 0, 0, .3);
+	color: rgba(254, 254, 254, .8);
+	text-align: center;
+}
+
+/*use z-index property */
+.img{
+	position: relative;
+	z-index: 1;
+}
+.m{
+	position: absolute;
+	z-index: 2;
+}
+
+/* Project 2*/
+.cm{
+	margin: 150px;
+	height: 400px;
+	width: 400px;
+	border: 1px solid gray;
+	border-radius: 15px;
+	position: relative;
+}
+
+.c1{
+	height: 200px;
+	width: 200px;
+	border: 1px solid gray;
+	border-radius: 15px;
+	background-color: red;
+
+	/*use z-index*/
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 2;
+}
+
+.c2{
+	margin-top: 20px;
+	height: 200px;
+	width: 200px;
+	border: 1px solid gray;
+	border-radius: 15px;
+	background-color: green;
+
+	/*use z-index*/
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	z-index: 3;
+}
+
+.c3{
+	margin-top: 20px;
+	height: 200px;
+	width: 200px;
+	border: 1px solid gray;
+	border-radius: 15px;
+	background-color: yellow;
+
+	/*use z-index*/
+	position: absolute;
+	left: 40px;
+	top: 40px;
+	z-index: 1;
+}

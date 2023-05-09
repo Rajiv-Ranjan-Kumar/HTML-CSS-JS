@@ -1,0 +1,35 @@
+/* use visibility property */
+
+p.c3{
+	visibility: hidden;
+}
+
+p.c2{
+	visibility: collapse;
+}
+
+p.c3{
+	visibility: visible;
+}
+
+
+div{
+	margin: 200px;
+	width: 376.3px;
+	border: 1px solid green;
+	border-radius: 10px;
+	float: left;
+}
+
+h1{
+	margin: 0;
+	text-align: center;
+	background-color: red;
+	width: 100%;
+	border-radius:10px 10px 0px 0px ;
+}
+
+/* use visibility property */
+div img.c3{
+	visibility: hidden;
+}

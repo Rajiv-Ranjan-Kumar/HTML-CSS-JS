@@ -1,0 +1,13 @@
+body{
+	text-align: center;
+	font-family: serif;
+	padding: 20px;
+}
+
+h1{
+	text-decoration-line: underline overline;
+	text-decoration-color: red;
+	text-decoration-style: solid;
+	/* using this property */
+	text-decoration-thickness: 50px;
+}

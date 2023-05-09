@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+tbody{
+	background-color: #ddd;
+}
+
+.main,.slider,.slider img,.nav,.nav ul,.nav ul li{
+	width: 100%;
+}
+
+.main,.slider,.slider img,.nav ul,.nav ul li{
+	float: left;
+}
+
+.slider img{
+	height: 400px;
+	float: left;
+}
+
+.nav ul li{
+	background-color: black;
+	text-align: center;
+	border-right: 1px solid #fff;
+}
+
+.nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	line-height: 50px;
+}
+
+.nav ul{
+	list-style-type: none;
+	display: flex;/*use nav small and long display*/
+}
+
+.content h1{
+	margin: 20px 40px;
+	padding: 10px 0px;
+	color: red;
+	border-bottom: 8px solid red;
+	width: 75%;
+}
+
+.content p{
+	padding: 10px 30px;
+	font-size: 25px;
+}
+
+/*use sticky Position*/
+.nav{
+	position: sticky;
+	top: -400px;
+}
+
+@media screen and (min-width: 900px;){
+	.nav{
+		top: -500px;
+	}
+}

@@ -1,0 +1,45 @@
+body{
+	background-image:
+					 url('D:/CSS PROGRAM/media/image/R5.PNG'),
+					 url('D:/CSS PROGRAM/media/image/R.JPG');
+	/*use background-size with value and cover attribut*/
+	background-size: 100px,cover;
+	/*use background-repeat with repeat attribut*/
+	background-repeat: no-repeat;
+	/*use background-position with values*/
+	background-position: center 10px,0px 0px;
+}
+
+
+
+div{
+	width: 500px;
+	height: 300px;
+	margin: 150px auto;
+	border: 20px dotted gray;
+	border-radius: 15px;
+	background-image: url('D:/CSS PROGRAM/media/image/R3.jpg');
+	/*use background-size with cover attribut*/
+	background-size: cover;
+	/*use background-repeate with round attribut*/
+	background-repeat: round;
+	/*use background-origin with border-box attribut*/
+	background-origin: border-box;
+	/*background-origin: padding-box;
+	background-origin: content-box;*/
+	background-color: rgba(0, 0, 0, .3);
+
+}
+
+h1{
+	margin: 30px 150px;
+	color: white;
+	text-shadow: 3px 3px 3px gray;
+}
+
+P{
+	color: pink;
+	margin: 20px 50px;
+	padding: 10px 30px;
+	text-shadow: 2px 2px 2px gray;
+}

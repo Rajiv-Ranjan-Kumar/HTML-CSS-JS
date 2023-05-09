@@ -1,0 +1,38 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.wapper{
+	width: 800px;
+	margin: 50px auto 0px auto;
+}
+
+.main{
+	width: 800px;
+	float: left;
+}
+
+img{
+	width: 190px;
+	height: 200px;
+	margin: 10px;
+	float: left;
+	/*use outline*/
+	outline: 5px solid gray;
+	/*use outline-offset*/
+	/*outline-offset: -5px;*/
+}
+
+article{
+	width: 170px;
+	height: 200px;
+	margin: 10px;
+	margin-left: 0px;
+	float: left;
+	overflow: scroll;
+	/*use outline*/
+	outline: 5px solid indianred;
+	/*use outline-offset*/
+	/*outline-offset: -5px;*/
+}

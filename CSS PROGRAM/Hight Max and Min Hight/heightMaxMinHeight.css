@@ -1,0 +1,24 @@
+body{
+	font-size: 24px;
+}
+
+.main{
+	margin: 50px auto 0px auto;
+	width: 500px;
+}
+
+.main img{
+	width: 500px;
+}
+
+.main article{
+	border: 5px solid gray;
+	padding: 5px;
+
+	/*use height*/
+	/*height: 600px;*/
+	min-height: 200px;
+	max-height: 500px;
+	/*use overflow*/
+	overflow: scroll;
+}

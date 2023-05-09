@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Pseodo Element Selector</title>
+	<link rel="stylesheet" href="">
+
+	<style type="text/css">
+		
+		/*
+			::after
+			::before
+			::first-letter
+			::first-line
+			::selection
+			::placeholder
+		*/
+		p{
+			font-weight: bold;
+			font-size: 18px;
+		}
+
+		/*use pseodo selector*/
+		p::first-letter{
+			color: red;
+		}
+
+		p::first-line{
+			color: green;
+			background: yellow;
+		}
+
+		/*for selection time*/
+		p::selection{
+			color: red;
+			background-color: gray;
+		}
+
+		::placeholder{
+			color: blue;
+		}
+
+		h3::after{
+			content: " Rajiv";
+			color: red;
+		}
+
+		h3::before{
+			content: " Rajiv ";
+			color: red;
+		}
+
+	</style>
+</head>
+<body>
+	<h3>Pseodo Element Selector</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<form>
+		<lable>Name :</lable><input type="text" name="name" placeholder="Enter Name"><br>
+		<label>Roll No :</label><input type="text" name="rNo" placeholder="Enter Roll No">
+	</form>
+</body>
+</html>

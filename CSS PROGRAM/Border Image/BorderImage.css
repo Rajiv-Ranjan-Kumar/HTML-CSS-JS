@@ -1,0 +1,55 @@
+.Box{
+	width: 300px;
+	height: 300px;
+	margin: 50px  auto;
+	padding: 20px;
+	border: 10px solid;
+
+	/*Use border-image-source and border-image-slice*/
+	border-image-source: url('D:/CSS PROGRAM/media/image/border.jpg');
+	border-image-slice: 500;
+	border-image-repeat: round;
+}
+
+.Box1{
+	width: 300px;
+	height: 300px;
+	margin: 50px  auto;
+	padding: 20px;
+	border: 10px solid;
+
+	/*Use border-image-source and border-image-slice*/
+	border-image-source: url('D:/CSS PROGRAM/media/image/R.jpg');
+	border-image-slice: 500;
+}
+
+.Box2{
+	width: 300px;
+	height: 300px;
+	margin: 50px  auto;
+	padding: 20px;
+	border: 10px solid;
+	background-color: green;
+
+	/*Use border-image-source and border-image-slice*/
+	border-image-source: url('D:/CSS PROGRAM/media/image/border.jpg');
+	border-image-slice: 500;
+	/*use border-image-repeat with round value*/
+	border-image-repeat: round;
+	/*use border-image-outset*/
+	border-image-outset: 20px;
+	/*use border-image-width*/
+	border-image-width: 30px;
+}
+
+.Box3{
+	width: 300px;
+	height: 300px;
+	margin: 50px  auto;
+	padding: 20px;
+	border: 10px solid;
+	background-color: green;
+
+	/*Use border-image with multiple values*/
+	border-image: url('D:/CSS PROGRAM/media/image/border.jpg') 500 / 20px / 30px round;
+}

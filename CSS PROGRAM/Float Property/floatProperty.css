@@ -1,0 +1,25 @@
+.A{
+	width: 850px;
+	background-color: gray;
+}
+
+img{
+	width: 100px;
+	height: 100px;
+}
+
+.c1,.c2,.c3,.c4{
+	width: 100px;
+	height: 100px;
+}
+
+#c1,#c2,#c3,#c4{
+	width: 750px;
+	height: 100px;
+}
+
+/* use float property */
+.c1{float: left;}
+.c2{float: right;}
+.c3{float: left;}
+.c4{float: right;}

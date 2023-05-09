@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Form Pseudo Classes</title>
+	<link rel="stylesheet" href="">
+
+	<style type="text/css">
+		/*
+		:focus
+		:checked
+		:disabled
+		:enabled
+		:required
+		:optional
+		:in-range
+		:out-of-range
+		:read-only
+		:read-write
+		:valid
+		:invalid
+		:default
+		*/
+
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+		div.main{
+			/*margin: 20px 0px 0px 500px;*/
+			margin: 40%;
+			height: 500px;
+			width: 300px;
+			border: 2px solid gray;
+			border-radius: 10px;
+			background-color: rgba(0, 0, 0, .1);
+		}
+
+		div.register h4{
+			margin: 10px;
+			text-align: center;
+		}
+		div.register label ,.name{
+			margin: 0px 0px 0px 65px;
+		}
+
+		div.main button{
+			height: 30px;
+			width: 100px;
+			margin-left: 100px;
+			text-align: center;
+			background-color: green;
+			border: 1px solid green;
+			border-radius: 5px;
+		}
+
+		span.required{
+			color: red;
+		}
+
+		/*Use Form Pseudo Classes*/
+
+		/*for text area*/
+		input:focus{ 
+			border: 4px solid red;
+		}
+
+		/*for radio button*/
+		/*input[type="radio"]:checked{
+			box-shadow: 0px 0px 0px 2px red;
+		}*/
+
+		/*for checkbox*/
+		/*input[type="checkbox"]:checked{
+			box-shadow: 0px 0px 0px 2px green;
+		}*/
+
+		/*for all checkbox & radio button*/
+		/*input:checked{
+			box-shadow: 0px 0px 0px 2px red;
+		}*/
+
+		/*for all checkbox & radio button*/
+		/*input:checked + span{
+			box-shadow: 0px 0px 0px 2px red;
+		}*/
+
+		/*for all checkbox & radio button*/
+		input:checked+span{
+			color: red;
+		}
+
+		/*input[type="text"]:disabled{
+			border: 4px solid red;
+		}
+
+		input[type="text"],[type="email"]:enabled{
+			border: 4px solid green;
+		}*/
+
+		input:required{
+			border: 2px solid red;
+		}
+
+		input:optional{
+			border: 2px solid blue;
+		}
+
+		input[type="number"]:in-range{
+			border: 2px solid red;
+		}
+
+		input[type="number"]:out-of-range{
+			border: 2px solid blue;
+		}
+
+		input:read-only{
+			border: 2px solid yellow;
+		}
+
+		/*input:read-write{
+			border: 2px solid red;
+		}*/
+
+		input:valid{
+			border: 2px solid blue;
+		}
+
+		input:invalid{
+			border: 2px solid red;
+		} 
+
+		input:default{
+			box-shadow: 0 0 0 3px red;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="register">
+			<h4>Register Here</h4>
+			<form id="regist  er">
+				<label>First Name <span class="required">*</span>:</label>
+				<br>
+				<input type="text" name="fname" class="name" placeholder="Enter Your first Name" enabled="true" required>
+
+				<br><br>
+				<label>Midile Name :</label>
+				<br>
+				<input type="text" name="lname" class="name" placeholder="Enter Your Last Name"disabled="true" readonly="true">
+
+				<br><br>
+				<label>Last Name<span span class="required">*</span>:</label>
+				<br>
+				<input type="text" name="lname" class="name" placeholder="Enter Your Last Name" enabled="true" required>
+
+				<br><br>
+				<label>Parents Name :</label>
+				<br>
+				<input type="text" name="pname" class="name" placeholder="Enter Your Parents Name">
+
+				<br><br>
+				<label>Email<span span class="required">*</span>:</label>
+				<br>
+				<input type="email" class="name" placeholder="Enter Your Email id" enabled="true" required>
+
+				<br><br>
+				<label>Your Age<span span class="required">*</span>:</label>
+				<input type="number" min="18" max="40" placeholder="Enter Your Age" required>
+
+				<br><br>
+				<label>Gender :</label>
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="gender" id="male" checked="true"><span>Male</span>
+				&nbsp;
+				<input type="radio" name="gender" id="female"><span>Female</span>
+				&nbsp;
+				<input type="radio" name="gender" id="other"><span>Other</span>
+
+				<br><br>
+				<label>Know Your Language :</label>
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="checkbox" name="Language" id="English" checked="true"><span>English</span>
+				&nbsp;
+				<input type="checkbox" name="Language" id="Hindi"><span>Hindi</span>
+
+				<br><br>
+				<button type="submit" value="submit" id="submit">Submit</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

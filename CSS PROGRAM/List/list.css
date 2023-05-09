@@ -1,0 +1,78 @@
+h3{
+	background-color: aqua;
+}
+h5{
+	background-color: red;
+}
+
+/*use list style type*/
+#ul1{
+	list-style-type: disc;
+}
+
+#ul2{
+	list-style-type: circle;
+}
+
+#ul3{
+	list-style-type: square;
+}
+
+#ul4{
+	list-style-type: none;
+}
+
+#ol1{
+	list-style-type: decimal;
+}
+
+#ol2{
+	list-style-type: decimal-leading-zero;
+}
+
+#ol3{
+	list-style-type: none;
+}
+
+#ol4{
+	list-style-type: upper-alpha;
+}
+
+#ol5{
+	list-style-type: lower-alpha;
+}
+
+#ol6{
+	list-style-type: upper-roman;
+}
+
+#ol7{
+	list-style-type: lower-roman;
+}
+
+/*use list style position*/
+#ol8{
+	list-style-position: inside;
+}
+
+#ol9{
+	list-style-position: outside;
+}
+
+#ul5{
+	list-style-position: inside;
+}
+
+#ul6{
+	list-style-position: outside;
+}
+
+/*use list style image*/
+#ol10{
+	list-style-image: url('right_arrow.png');
+}
+
+/*use list style*/
+#ol11{
+	list-style: square inside url('right_arrow.png');
+}

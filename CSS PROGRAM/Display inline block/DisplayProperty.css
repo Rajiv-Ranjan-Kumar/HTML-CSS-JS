@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: tahoma;
+	font-size: 32px;
+	padding: 100px 40px 0px 40px;
+}
+
+h1{margin-bottom: 30px;}
+p{
+	margin-top: 10px;
+
+	/*use display inline property*/
+	/*display: inline;*/
+}
+
+p.one{
+	background-color: #ffdd00;
+
+	/*use display none property*/
+	/*display: none;*/
+}
+
+p.one span{
+	background-color: red;
+	/*use display block property*/
+	/*display: block;*/
+
+	/*use display inline-block property*/
+	/*display: inline-block;*/
+
+	/*use display inherit property*/
+	/*display: inherit;*/
+}
+
+p.two{
+	background-color: #ffff00;
+}
+
+p.two span{
+	/*use display list-item property*/
+	/*display: list-item;*/
+}
+
+span{
+	/*use display block property*/
+	/*background-color: green;
+	display: block;
+}
+
+p.two span.one{
+	/*use display initial property*/
+	/*display: initial;
+}

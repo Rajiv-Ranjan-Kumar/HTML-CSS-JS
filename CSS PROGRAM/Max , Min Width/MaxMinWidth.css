@@ -1,0 +1,29 @@
+body{
+	font-size: 24px;
+}
+
+.main{
+	margin: 50px auto 0px auto;
+	padding: 0px;
+	/*width: 900px;*/
+	/*width: 90%;*/
+
+	/*min and max width*/
+	min-width: 300px;
+	max-width: 900px;
+
+	/* Note :-
+				HTML file ko crome browser me open kare or computer ka 
+				f12 button click kare or kam jyada kr ke receponsive check
+				kare.
+	*/
+}
+
+.main img{
+	width: 100%;
+}
+
+.main article{
+	width: 100%;
+	padding: 10px;
+}

@@ -1,0 +1,50 @@
+div{
+	float: left;
+	margin: 25px;
+}
+
+div.text{
+	width: 250px;
+	height: 300px;
+	border: 10px solid red;
+
+	/* use overflow property*/
+
+	/*overflow: visible;*/
+	/*overflow: hidden;*/
+	/*overflow: scroll;*/
+	overflow: auto;
+	/*overflow: clip;*/
+
+	/*overflow-x: scroll;
+	overflow-x: hidden;
+    overflow-y: scroll;
+    overflow-y: hidden;*/
+}
+
+div.image{
+	width: 300px;
+	height: 300px;
+	border: 10px solid red;
+
+	/* use overflow property*/
+
+	/*overflow: visible;*/
+	/*overflow: hidden;*/
+	/*overflow: scroll;*/
+	overflow: auto;
+	/*overflow: clip;*/
+
+
+	/*overflow-x: scroll;
+	overflow-x: hidden;
+    overflow-y: scroll;
+    overflow-y: hidden;*/
+}
+
+div.image img{
+	opacity: .9;
+	width: 350px;
+	height: 400px;
+}
+

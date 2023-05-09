@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Airthemetic Operators</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/*
+		Arithemetic Operators
+
+		+		Addition
+		-		Subtraction
+		*		multiplication
+		**		Exeponentiation(2**3 = 2^3=8)
+		/		Division
+		%		Modulus
+		++		Increment(5++=6)
+		--		Decrement(4--=3)
+
+		*/
+
+		var num1 = 10 ;
+		var num2 = 20.30;
+		var sum = num1+num2;
+
+		var a = 10 ;
+		var b = 3 ;
+
+		//additions
+		document.write(num1,'&nbsp; + &nbsp;',num2,'&nbsp; = &nbsp;',sum);
+		document.write('<br>');
+
+		//Subtractions
+		var sub = num1 - num2;
+		document.write(num1,'&nbsp; - &nbsp;',num2,'&nbsp; = &nbsp;',sub);
+		document.write('<br>');
+
+		//Multiplications
+		var mul = num1*num2;
+		document.write(num1,'&nbsp; * &nbsp;',num2,'&nbsp; = &nbsp;',mul);
+		document.write('<br>');
+
+		//Exponentiation
+		var exp = a**b;
+		document.write(a,'&nbsp; ** &nbsp;',b,'&nbsp; = &nbsp;',exp);
+		document.write('<br>');
+
+		//Division
+		var div = num2/num1;
+		document.write(num2,'&nbsp; / &nbsp;',num1,'&nbsp; = &nbsp;',div);
+		document.write('<br>');
+
+		//Modulus
+		var mod = a % b;
+		document.write(a,'&nbsp; % &nbsp;',b,'&nbsp; = &nbsp;',mod);
+		document.write('<br>');
+
+		//Increament
+		document.write(num1,'++',"&nbsp; = &nbsp;",++num1); //pree increament
+		document.write('<br>');
+
+		var x = num1++;//post increament
+		document.write(num1,'++',"&nbsp; = &nbsp;",num1); 
+		document.write('<br>');
+
+		//Decreament
+		document.write(num1,'--',"&nbsp; = &nbsp;",--num1); //pree decreament
+		document.write('<br>');
+
+		var x = num1--;//post increament
+		document.write(num1,'--',"&nbsp; = &nbsp;",num1); 
+		document.write('<br>');
+	</script>
+</body>
+</html>

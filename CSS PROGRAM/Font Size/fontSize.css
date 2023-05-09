@@ -1,0 +1,139 @@
+/*
+xx-small   = 9 px
+x-small    = 10 px
+small      = 13.3 px
+smaller    = 14 px
+medium     = 16 px
+large      = 18 px
+larger     = 19 px
+x - large  = 24 px
+xx - large = 32 px
+
+
+
+Note :-
+		(i) px size ko fixed karta hai
+
+		(ii) % size ko kam krta hai [ body size * n% ]
+
+		(iii) em size ko badhata hai [body size * n em]  
+*/
+
+body{
+	font-size: 30px;
+}
+
+#s{
+	font-size: xx-large;
+}
+
+#p1{
+	/* font size using px */
+	/*font-size: 32px;*/
+
+	/* font size using % */
+	/*font-size: 10%;
+
+	/* font size using em */
+	/*font-size: 10em;*/
+	
+	font-size: xx-large;
+}
+
+#p2{
+	/* font size using px */
+	/*font-size: 24px;
+
+	/* font size using % */
+	/*font-size: 7%;
+
+	/* font size using em */
+	/*font-size: 7em;*/
+
+	font-size: x-large;
+}
+
+#p3{
+	/* font size using px */
+	/*font-size: 19px;
+
+	/* font size using % */
+	/*font-size: 5%;
+
+	/* font size using em */
+	/*font-size: 5em;*/
+
+	font-size: large;
+}
+
+#p4{
+	/* font size using px */
+	/*font-size: 18px;
+
+	/* font size using px */
+	/*font-size: 4%;
+
+	/* font size using em */
+	/*font-size: 4em;*/
+	font-size: larger;
+}
+
+#p5{
+	/* font size using px */
+	/*font-size: 16px;
+
+	/* font size using % */
+	/*font-size: 3%;
+
+	/* font size using em */
+	/*font-size: 3em;*/
+	font-size: medium;
+}
+
+#p6{
+	/* font size using px */
+	/*font-size: 14px;
+
+	/* font size using % */
+	/*font-size: 2%;
+
+	/* font size using em */
+	/*font-size: 2em;*/
+	font-size: smaller;
+}
+
+#p7{
+	/* font size using px */
+	/*font-size: 13.3px;
+
+	/* font size using % */
+	/*font-size: 5%;
+
+	/* font size using em */
+	/*font-size: 5em;*/
+	font-size: small;
+}
+
+#p8{
+	/* font size using px */
+	/*font-size: 10px;
+
+	/* font size using % */
+	/*font-size: 9%;
+
+	/* font size using em */
+	/*font-size: 9em;*/
+	font-size: x-small;
+}
+
+#p9{
+	/* font size using px */
+	/*font-size: 9px;
+
+	/* font size using % */
+	/*font-size: 7%;
+
+	/* font size using em */
+	/*font-size: 7em;*/
+	font-size: xx-small;
+}

@@ -1,0 +1,12 @@
+body{
+	background-image: url('D:/CSS PROGRAM/media/image/Capture001.PNG'),
+					  url('D:/CSS PROGRAM/media/image/rajiv.PNG');
+	/*use background-size with values*/
+	background-size: 700px 625px, 700px 625px;
+	/*use background-repear with no-repeat attribut*/
+	background-repeat: no-repeat;
+	/*use background-position-x with values*/
+	background-position-x: 0px,700px;
+	/*use background-position-y with values*/
+	background-position-y: 0px,0px;
+}

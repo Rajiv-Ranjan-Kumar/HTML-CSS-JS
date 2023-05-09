@@ -1,0 +1,11 @@
+body{
+	text-align: center;
+	font-family: serif;
+	padding: 20px;
+}
+
+h1{
+	text-decoration-line: underline overline;
+	/*using property*/
+	text-decoration-color: darkred;
+}

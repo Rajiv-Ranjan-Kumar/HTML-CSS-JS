@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Logical Operators</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/*
+		Logical Operaters
+		Operators		Names			Discriptisons					Output
+			&& 			Logical AND 	All Conditions are True 		True
+			||			Logical OR 		Minimum One Condition are True	True
+			! 			Logical NOT 	Condition is True				Flase
+		*/
+
+		var a = 10;
+		var b = 20;
+		var c = 30;
+
+		//&&
+		var x = (a <= b && a <= c);
+		document.write(x,'<br>');
+
+		var x = (a <= b && a >= c);
+		document.write(x,'<br><br>');
+
+		//||
+		var x = (a <= b || a <= c);
+		document.write(x,'<br>');
+
+		var x = (a <= b || a >= c);
+		document.write(x,'<br>');
+
+		var x = (a >= b || a >= c);
+		document.write(x,'<br><br>');
+
+		//!
+		var x = !(a <= b );
+		document.write(x,'<br><br>');
+
+		var x = !(a >= b );
+		document.write(x,'<br><br>');
+
+		var x = (!a >= b ); //same output
+		document.write(x,'<br><br>');
+	</script>
+</body>
+</html>

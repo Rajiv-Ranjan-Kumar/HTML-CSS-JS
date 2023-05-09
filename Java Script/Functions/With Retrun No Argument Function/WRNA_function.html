@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>WRNA Function</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/*
+			With Argument No Retrun Function
+
+			function functionName(){
+				Statement 1;
+				Statement 2;
+				Statement 3;
+				------------
+				------------
+				------------
+				retrun(Argument);
+			}
+
+			some codes; //Optional
+
+			var variableName = functionName();
+		*/
+
+		function addTwoNumber(){
+			var num1 = parseInt(prompt("Enter First Number : "));
+			var num2 = parseInt(prompt("Enter Second Number : "));
+			return(num1+num2);
+		}
+
+		var x = addTwoNumber();
+		document.write("Sum = "+x);
+	</script>
+</body>
+</html>

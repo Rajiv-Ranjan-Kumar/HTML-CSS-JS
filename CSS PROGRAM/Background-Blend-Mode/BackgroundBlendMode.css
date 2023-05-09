@@ -1,0 +1,40 @@
+/*use for all Content*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.Box{
+	width: 100vw;/*VW (viwe-port width) and use for full screen*/
+	height: 100vw;
+	/*background:url('D:/CSS PROGRAM/media/image/R.jpg'),red;*/
+	
+	/*use liner-gradient*/
+	/*background:url('D:/CSS PROGRAM/media/image/R.jpg'),linear-gradient(blue,yellow,green);*/
+	
+	/*multiple images use*/
+	background:url('D:/CSS PROGRAM/media/image/R.jpg'),
+			   url('D:/CSS PROGRAM/media/image/R1.jpg'),
+			   url('D:/CSS PROGRAM/media/image/R3.jpg');
+
+	background-size: cover;
+	background-attachment: fixed;
+
+	/*use background-Blend-mode With multiply value*/
+	/*background-blend-mode: multiply;*/
+
+	/*use background-Blend-mode With screen value*/
+	/*background-blend-mode: screen;*/
+
+	/*use background-Blend-mode With saturation value*/
+	/*background-blend-mode: saturation ;*/
+
+	/*use background-Blend-mode With soft-light value*/
+	/*background-blend-mode: soft-light;*/
+
+	/*use background-Blend-mode With luminosity value*/
+	/*background-blend-mode: luminosity;*/
+
+	/*use background-Blend-mode With exclusion value*/
+	background-blend-mode: exclusion;
+}

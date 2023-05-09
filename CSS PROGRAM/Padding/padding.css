@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*use padding for Box*/
+.Box{
+	width: 500px;
+	margin: 50px auto;
+	border: 5px solid gray;
+}
+
+.Box article{
+	padding-left: 50px;
+	padding-top: 5px;
+	padding-right: 2px;
+	padding-bottom: 80px;
+}
+
+/*use padding for Box1*/
+.Box1{
+	width: 500px;
+	margin: 50px auto;
+	border: 5px solid gray;
+}
+
+.Box1 article{
+	padding: 50px;
+}
+
+/*use padding for Box2*/
+.Box2{
+	width: 500px;
+	margin: 50px auto;
+	border: 5px solid gray;
+}
+
+.Box2 img{
+	width: 470px;
+	padding: 10px 10px 0px 15px;
+}
+.Box2 article{
+	padding: 0px 10px 10px 15px;
+}

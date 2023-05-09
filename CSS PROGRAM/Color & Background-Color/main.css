@@ -1,0 +1,40 @@
+/*use color name*/
+h1{
+	color: red;
+	background-color: yellow;
+	border: 5px solid blue;
+}
+
+
+/*use hexa decimal code*/
+h2{
+	color: #0000ff;
+	background-color: #00ff00;
+	border: 5px solid #aa0000;
+}
+
+/*note hexa decima work on three digit*/
+p{
+	color: #00f;
+	background-color: #aaa;
+}
+
+
+/*use rgb color code*/
+h3{
+	color: rgb(0, 100,0 );
+	background-color: rgb(255, 0, 0);
+	border: 5px solid rgb(50, 100, 50);
+}
+
+
+/*use rgba color code*/
+h4{
+	color: rgba(0, 0, 0, 1);
+	background-color: rgba(0, 0, 0, .3);
+	border: 5px solid rgba(0, 255, 0, 1.0);
+}
+
+body{
+	background-color: rgba(50, 50, 50, .7);
+}

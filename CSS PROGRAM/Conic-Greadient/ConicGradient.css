@@ -1,0 +1,73 @@
+body{
+	background-image: url('D:/CSS PROGRAM/media/image/R.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.Box{
+	border: 0px solid gray;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	float: left;
+}
+
+.A1{
+	/*use conic-gradient*/
+	background-image: conic-gradient(red,yellow,green,blue);
+}
+
+.A2{
+	/*use conic-gradient*/
+	background-image: conic-gradient(from 45deg ,red,yellow,green,blue);
+}
+
+.A3{
+	/*use conic-gradient*/
+	background-image: conic-gradient(red,yellow,green,red);
+}
+
+.A4{
+	/*use conic-gradient*/
+	background-image: conic-gradient(red 270deg,yellow,green,blue);
+}
+
+.A5{
+	/*use conic-gradient*/
+	background-image: conic-gradient(at 40% 50% ,red,yellow,green,blue);
+}
+
+.A6{
+	/*use repeating-conic-gradient*/
+	background-image: repeating-conic-gradient(red 10%,yellow 20%,green 25%,blue 30%);
+}
+
+.A7{
+	/*use repeating-conic-gradient*/
+	background-image: repeating-conic-gradient(red 10deg,yellow 20deg);
+}
+
+.A8{
+	/*use repeating-conic-gradient*/
+	background-image: repeating-conic-gradient(red 0deg,red 20deg,yellow 20deg,yellow 30deg);
+}
+
+.A9{
+	/*use repeating-conic-gradient*/
+	background-image: repeating-conic-gradient(rgba(0, 0, 0, 0) 0deg,rgba(0, 0, 0, 0) 20deg,rgba(0, 0, 0, .5) 20deg,rgba(0, 0, 0, .5)30deg);
+	background-color: red;
+}
+
+.A10{
+	/*use repeating-conic-gradient*/
+	background-image: repeating-conic-gradient(yellow 0deg,yellow 20deg,black 90deg,black 180deg);
+	border-radius: 0px;
+	background-size: 20px 20px;
+}
+
+.A11{
+	/*use repeating-conic-gradient*/
+	background-image: repeating-conic-gradient(red 0deg,red 90deg,blue 90deg,blue 180deg,green 180deg,green 270deg,yellow 270deg,yellow 360deg);
+}

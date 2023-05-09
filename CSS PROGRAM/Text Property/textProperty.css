@@ -1,0 +1,84 @@
+div{
+	width: 500px;
+	margin: 50px auto 0px auto;
+	border: 10px solid gray;
+}
+
+/*use color property*/
+h1{
+	color: red;
+}
+
+h2{
+	color: green;
+}
+
+h3{
+	color: hotpink;
+}
+
+samp{
+	color: darkgray;
+}
+
+p{
+	color: blue;
+}
+
+/*use letter spacing property*/
+samp{
+	letter-spacing: 5px;
+}
+
+/*use word spacing property*/
+h2{
+	word-spacing: 100px;
+}
+
+/* use text-indent property*/
+p{
+	text-indent: 30px;
+}
+
+/* use text-align property*/
+#x{
+	/*text-align: right;
+	text-align: left;
+	text-align: center;*/
+	text-align: justify;
+}
+
+#x1{
+	text-align: right;
+}
+
+/*use text-decoration*/
+#x1 a{
+	text-decoration: none;
+}
+
+h1{
+	text-decoration: underline;
+}
+
+h2{
+	text-decoration: overline;
+}
+
+h3{
+	text-decoration: line-through;
+}
+
+/*use text transform property*/
+h1{
+	text-transform: uppercase;
+}
+
+#x2{
+	text-transform: capitalize;
+}
+
+/*use text-shadow property*/
+h1{
+	text-shadow: 5px 3px 4px gray;
+}

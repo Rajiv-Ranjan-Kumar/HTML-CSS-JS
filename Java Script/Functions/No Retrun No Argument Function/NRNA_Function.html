@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>NRNA Function</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/*
+			function functionName(){
+				Statement 1;
+				Statement 2;
+				Statement 3;		//function body
+				------------
+				------------
+				------------
+			}
+
+			Some Codes; 	//Optional
+			
+			functionName(); //function calling
+		*/
+
+		function addition(){
+			var num1 = prompt("Enter First Number :");
+			var num2 = prompt("Enter Second Number :");
+			var sum =parseInt(num1)+parseInt(num2);	//Use ParseInt for convert String to Intiger
+			document.write('Sum = '+sum);
+		}
+
+		function addition1(){
+			var num1 = prompt("Enter First Float Number :");
+			var num2 = prompt("Enter Second Float Number :");
+			var sum = parseFloat(num1)+parseFloat(num2);
+			document.write("sum = "+sum);
+		}
+
+		addition();
+		addition1();
+	</script>
+</body>
+</html>

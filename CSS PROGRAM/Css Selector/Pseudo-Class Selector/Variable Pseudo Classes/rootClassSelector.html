@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Root Class</title>
+	<link rel="stylesheet" href="">
+
+	<style type="text/css">
+		/*variable dclaration*/
+		:root{
+			--mainColor: red;
+			--secondColor: yellow;
+		}
+		
+		/*root calling*/
+		h1,h2,h3{
+			color: var(--mainColor);
+		}
+
+		p{
+			color: var(--secondColor);
+		}
+	</style>
+</head>
+<body>
+	<h1>heding 1</h1>
+	<h2>heding 2</h2>
+	<h3>heding 3</h3>
+	<p>Paragraph...1</p>
+	<p>Paragraph...2</p>
+	<p>Paragraph...3</p>
+</body>
+</html>

@@ -1,0 +1,48 @@
+*{margin: 0; padding: 0;}
+
+div{
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin: 20px;
+	text-align: center;
+	border: 2px solid #aaa;
+}
+
+/* use cursor property */
+div.c1{cursor: alias;}
+div.c2{cursor: context-menu;}
+div.c3{cursor: default;}
+div.c4{cursor: grabbing;}
+div.c5{cursor: ne-resize;}
+div.c6{cursor: nwse-resize;}
+div.c7{cursor: pointer;}
+div.c8{cursor: se-resize;}
+div.c9{cursor: w-resize;}
+div.c10{cursor: all-scroll;}
+div.c11{cursor: col-resize;}
+div.c12{cursor: e-resize;}
+div.c13{cursor: help;}
+div.c14{cursor: nesw-resize;}
+div.c15{cursor: no-drop;}
+div.c16{cursor: progress;}
+div.c17{cursor: sw-resize;}
+div.c18{cursor: wait;}
+div.c19{cursor: auto;}
+div.c20{cursor: copy;}
+div.c21{cursor: ew-resize;}
+div.c22{cursor: move;}
+div.c23{cursor: ns-resize;}
+div.c24{cursor: none;}
+div.c25{cursor: row-resize;}
+div.c26{cursor: text;}
+div.c27{cursor: zoom-in;}
+div.c28{cursor: cell;}
+div.c29{cursor: crosshair;}
+div.c30{cursor: grab;}
+div.c31{cursor: n-resize;}
+div.c32{cursor: nw-resize;}
+div.c33{cursor: not-allowed;}
+div.c34{cursor: s-resize;}
+div.c35{cursor: url(#####),pointer;} /* image link and image size is 100px */
+div.c36{cursor: zoom-out;}

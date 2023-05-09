@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>input tag2</title>
+</head>
+<body>
+	<form>
+		<!--use All attriuts-->
+
+		<!--use input tag with type and accept attributs and type value file , accept value audio/*-->
+		Aplod Audio File :<input type="file" accept="Audio/*">
+
+		<!--use input tag with type and accept attributs and type value file , accept value video/*-->
+		Aplod video File :<input type="file" accept="video/*">
+
+		<!--use input tag with type and accept attributs and type value file , accept value image/*-->
+		Aplod Image File :<input type="file" accept="image/*">
+
+		<!--use input tag with type and accept attributs and type value file , accept value audio/* , video/* , image/*-->
+		Aplod Audio,video,image File :<input type="file" accept="Audio/* , video/* , image/*">
+
+		<!--use input tag with type and autofocus attributs and type value text,password-->
+		<br><br>
+		name :<input type="text" name="username">
+		<br><br>
+		password :<input type="password" name="userpassword" autofocus>
+
+		<!--use input tag with type and checked attributs and type value checkbox-->
+		<br><br>
+		india :<input type="checkbox" checked="">
+		chaina :<input type="checkbox">
+
+		<!--use input tag with type and disabled attributs and type value text , password-->
+		<br><br>
+		name :<input type="text" name="username" disabled>
+		<br><br>
+		password :<input type="password" name="userpassword">
+
+		<!--use input tag with list and id attributs-->
+		<br><br>
+		Fruits :<input list="Fruits">
+				<datalist id="Fruits">
+					<option value="Banana">
+					<option value="Orange">
+					<option value="Apple">					
+				</datalist>
+	</form>
+
+
+
+	<br><br>
+	<!--use id for linking form-->
+	<form id="myform">
+		Frist name :<input type="text" name="fname">
+		<input type="submit" value="SUBMIT">
+	</form>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.<br>Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<!--use form attributs for linking form-->
+	Last name :<input type="text" name="lname" form="myform">
+</body>
+</html>
